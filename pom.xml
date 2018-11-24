@@ -29,19 +29,8 @@
             </dependency>
         </dependencies>
         <configuration>
-            <skipTests>false</skipTests>
-            <includes>
-                <include>*Spec.*</include>
-            </includes>
-            <systemPropertyVariables>
-                <geb.build.reportsDir>target/test-reports/geb</geb.build.reportsDir>
-            </systemPropertyVariables>
             <useSystemClassLoader>false</useSystemClassLoader>
             <threadCount>1</threadCount>
-            <parallel>classes</parallel>
-            <forkCount>5</forkCount>
-            <reuseForks>false</reuseForks>
-            <useUnlimitedThreads>true</useUnlimitedThreads>
         </configuration>
     </plugin>
 
